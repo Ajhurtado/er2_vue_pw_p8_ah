@@ -44,17 +44,17 @@ export default {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background: skyblue;
 }
 .formulario{
     display: flex;
-    width: 30%;
+    width: 25%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: white;
     border-radius: 10px;
     padding: 20px;
+    border: 5px solid black;
 
 }
 button{

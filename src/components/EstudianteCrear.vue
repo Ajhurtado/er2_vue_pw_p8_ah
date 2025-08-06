@@ -74,7 +74,6 @@ export default {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background: skyblue;
 }
 .formulario{
     display: flex;
@@ -85,10 +84,16 @@ export default {
     background: white;
     border-radius: 10px;
     padding: 20px;
+    padding-bottom: 20px;
+    border: 5px solid black;
 
 }
-button{
+button {
     padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background: lightblue;
+    color: white;
 }
 input, select {
     width: 95%;
